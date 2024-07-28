@@ -55,7 +55,7 @@ Sunny Side is an Android application that provides weekly, daily, and current we
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/yourusername/sunny-side.git](https://github.com/vivekmishra161993/Sunny-Side)
+   git clone [https://github.com/yourusername/sunny-side.git]
    ```
 2. **Open the project in Android Studio.**
 
