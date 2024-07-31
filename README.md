@@ -10,6 +10,8 @@ Sunny Side is an Android application that provides weekly, daily, and current we
 - **Modern UI**: Built with Jetpack Compose for a smooth and modern user interface.
 - **Clean Architecture**: Ensures maintainable and testable codebase.
 
+![Screenshot_1722447136](https://github.com/user-attachments/assets/0b3093c0-8185-4409-bbe6-548ce3fb0550)
+
 ## Tech Stack
 
 - **Language**: Kotlin
