@@ -6,8 +6,8 @@ import com.mtt.weatherapp.domain.repository.WeatherRepository
 import javax.inject.Inject
 
 class WeatherRepositoryImpl @Inject constructor(private val api: WeatherApi) : WeatherRepository {
-    override suspend fun getWeather(): WeatherResponse {
-        return api.getWeather()
+    override suspend fun getWeather(map: Map<String, String>): WeatherResponse {
+        return api.getWeather(map)
     }
 
 }

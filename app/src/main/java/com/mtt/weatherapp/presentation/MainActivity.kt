@@ -38,12 +38,9 @@ class MainActivity : ComponentActivity() {
     }
 
     private fun hideSystemUI() {
-
         //Hides the ugly action bar at the top
         actionBar?.hide()
-
         //Hide the status bars
-
         WindowCompat.setDecorFitsSystemWindows(window, false)
 
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.R) {

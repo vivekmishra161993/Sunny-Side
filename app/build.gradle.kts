@@ -75,6 +75,8 @@ dependencies {
     implementation(libs.gsonConverter)
     implementation(libs.gson)
     implementation(libs.google.fonts)
+    implementation(libs.location.service)
+    implementation(libs.androidx.runtime.livedata)
 
     ksp(libs.hilt.compiler)
     ksp(libs.hilt.ext.compiler)

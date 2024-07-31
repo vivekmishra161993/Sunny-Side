@@ -5,23 +5,24 @@ coreKtx = "1.13.1"
 junit = "4.13.2"
 junitVersion = "1.1.5"
 espressoCore = "3.5.1"
-lifecycleRuntimeKtx = "2.7.0"
-activityCompose = "1.9.0"
-composeBom = "2023.08.00"
+lifecycleRuntimeKtx = "2.8.4"
+activityCompose = "1.9.1"
+composeBom = "2024.06.00"
 retrofit = "2.9.0"
 okhttp = "5.0.0-alpha.2"
 loggingInterceptor = "4.8.1"
-coroutines = "1.7.3"
+coroutines = "1.8.0"
 androidxHiltNavigationCompose = "1.2.0"
 hilt = "2.51"
 hiltExt = "1.2.0"
 splashScreenVer = "1.0.1"
 coilVersion = "2.6.0"
-arrow = "1.2.4"
-runtimeCompose = "2.6.2"
+runtimeCompose = "2.8.4"
 gson = "2.10.1"
 gsonConverter = "2.9.0"
 fonts = "1.6.8"
+location = "21.3.0"
+runtimeLivedata = "1.6.8"
 
 
 [libraries]
@@ -50,12 +51,12 @@ coroutineCore = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-co
 coroutineAndroid = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
 splashScreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "splashScreenVer" }
 coil = { group = "io.coil-kt", name = "coil-compose", version.ref = "coilVersion" }
-arrow-core = { module = "io.arrow-kt:arrow-core", version.ref = "arrow" }
-arrow-fx-coroutines = { module = "io.arrow-kt:arrow-fx-coroutines", version.ref = "arrow" }
 runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "runtimeCompose" }
 gsonConverter = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "gsonConverter" }
 gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 google-fonts = { group = "androidx.compose.ui", name = "ui-text-google-fonts", version.ref = "fonts" }
+location-service = { group = "com.google.android.gms", name = "play-services-location", version.ref = "location" }
+androidx-runtime-livedata = { group = "androidx.compose.runtime", name = "runtime-livedata", version.ref = "runtimeLivedata" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
